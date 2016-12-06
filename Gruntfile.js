@@ -88,8 +88,8 @@ module.exports = function (grunt) {
             },
             default: {
                 files: {
-                    '<%= path.dist.css %>/app.css': '<%= path.src.css %>/app.scss',
-                    //'<%= path.dist.css %>/style.css': '<%= path.src.css %>/styles.scss',
+                    '<%= path.dist.css %>/foundation.css': '<%= path.src.css %>/zurbfoundation.scss',
+                    '<%= path.dist.css %>/style.css': '<%= path.src.css %>/styles.sass',
                 }
             }
         },
@@ -246,7 +246,7 @@ module.exports = function (grunt) {
                 files: {
                     '<%= path.dist.js %>/jquery.js': 'bower_components/jquery/dist/jquery.js',
                     '<%= path.dist.js %>/what-input.js': 'bower_components/what-input/what-input.js',
-                    '<%= path.dist.js %>/app.js': [
+                    '<%= path.dist.js %>/foundation.js': [
                         // Core Foundation files
                         '<%= path.zf %>/js/foundation.core.js',
                         '<%= path.zf %>/js/foundation.util.*.js',
