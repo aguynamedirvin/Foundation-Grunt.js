@@ -288,7 +288,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    '<%= path.dist.js %>/app.js': '<%= path.dist.js %>/app.js'
+                    '<%= path.dist.js %>/foundation.js': '<%= path.dist.js %>/foundation.js'
                 }
             }
         },
